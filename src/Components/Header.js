@@ -6,7 +6,7 @@ import {connect} from 'react-redux'
 
 
 class Header extends Component{
-
+`// Render Streams
     renderMyStreams=()=>{
         if(this.props.isSignedIn){
             return (
